@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFF00"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#d50b23"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:context=".MainActivity"
+        tools:layout_editor_absoluteX="159dp"
+        tools:layout_editor_absoluteY="196dp">
+
+
+        <ImageView
+            android:id="@+id/balance"
+            android:layout_width="443dp"
+            android:layout_height="348dp"
+            android:gravity="center"
+            android:scaleType="centerCrop"
+            android:src="@drawable/men" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Король и Шут"
+            android:textColor="@color/white"
+            android:textSize="35dp"
+            />
+
+        <ImageButton
+            android:id="@+id/clown"
+            android:layout_width="331dp"
+            android:layout_height="229dp"
+            android:layout_marginBottom="5dp"
+            android:background="#d50b23"
+            android:scaleType="centerCrop"
+            android:src="@drawable/read2" />
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
