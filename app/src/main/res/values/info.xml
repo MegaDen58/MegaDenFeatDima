@@ -2,9 +2,10 @@
 <resources>
     <string-array name="info">
         <item>Первые годы</item>
-        <item>Аргентина</item>
+        <item>Начало популярности</item>
         <item>Пик популярности</item>
         <item>Смена состава</item>
-
+        <item>Уход Князева. Возвращение Ренегата</item>
+        <item>Смерть Михаила Горшенёва и распад группы</item>
     </string-array>
 </resources>

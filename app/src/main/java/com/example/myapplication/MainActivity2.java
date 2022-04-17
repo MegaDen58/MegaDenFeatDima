@@ -43,6 +43,14 @@ public class MainActivity2 extends AppCompatActivity {
                     Intent intent = new Intent(MainActivity2.this, changeOfComposition.class);
                     startActivity(intent);
                 }
+                if(position == 4){
+                    Intent intent = new Intent(MainActivity2.this, KnyazevRenegat.class);
+                    startActivity(intent);
+                }
+                if(position == 5){
+                    Intent intent = new Intent(MainActivity2.this, gorshenevIsDead.class);
+                    startActivity(intent);
+                }
             }
         });
     }
