@@ -34,6 +34,11 @@ public class MainActivity2 extends AppCompatActivity {
                     Intent intent = new Intent(MainActivity2.this, earlyYears.class);
                     startActivity(intent);
                 }
+
+                if(position == 2){
+                    Intent intent = new Intent(MainActivity2.this, thePeakOfPopularity.class);
+                    startActivity(intent);
+                }
             }
         });
     }
