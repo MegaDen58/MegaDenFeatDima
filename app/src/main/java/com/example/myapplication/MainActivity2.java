@@ -39,6 +39,10 @@ public class MainActivity2 extends AppCompatActivity {
                     Intent intent = new Intent(MainActivity2.this, thePeakOfPopularity.class);
                     startActivity(intent);
                 }
+                if(position == 3){
+                    Intent intent = new Intent(MainActivity2.this, changeOfComposition.class);
+                    startActivity(intent);
+                }
             }
         });
     }
