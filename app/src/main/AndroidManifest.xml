@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication">
         <activity
+            android:name=".ThebeginningOfPopularity"
+            android:exported="false" />
+        <activity
             android:name=".gorshenevIsDead"
             android:exported="false" />
         <activity

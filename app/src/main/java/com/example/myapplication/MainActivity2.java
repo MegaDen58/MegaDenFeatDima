@@ -34,6 +34,10 @@ public class MainActivity2 extends AppCompatActivity {
                     Intent intent = new Intent(MainActivity2.this, earlyYears.class);
                     startActivity(intent);
                 }
+                if(position == 1){
+                    Intent intent = new Intent(MainActivity2.this, ThebeginningOfPopularity.class);
+                    startActivity(intent);
+                }
 
                 if(position == 2){
                     Intent intent = new Intent(MainActivity2.this, thePeakOfPopularity.class);
