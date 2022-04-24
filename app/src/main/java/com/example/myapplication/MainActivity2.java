@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 import android.widget.ArrayAdapter;
+import android.widget.ListAdapter;
 import android.widget.ListView;
 import android.widget.AdapterView;
 import android.view.View;
@@ -22,7 +23,7 @@ public class MainActivity2 extends AppCompatActivity {
 
         setContentView(R.layout.activity_main2);
         ListView list = findViewById(R.id.info);
-        ArrayAdapter<String> adapter = new ArrayAdapter(this, android.R.layout.simple_list_item_1, arrayInfo);
+        ArrayAdapter<String> adapter = new ArrayAdapter(this, R.layout.mytextview, arrayInfo);
 
         list.setAdapter(adapter);
 
